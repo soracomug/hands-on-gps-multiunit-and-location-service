@@ -5,12 +5,12 @@
 
 ## 自身のDiscordやSlackに対して通知を行ってみる
 
-ご自身のDiscordのサーバなどをお持ちの場合は、以下のドキュメントを参考にしてWebhookのURLを作成し、Lambdaの環境変数に設定してみてください。
+ご自身のDiscordのサーバなどをお持ちの場合は、以下のドキュメントを参考にしてWebhookのURLを作成し、API送信先のURLに設定してみてください。
 
 [Webhooksへの序章](https://support.discord.com/hc/ja/articles/228383668-%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB-Webhooks%E3%81%B8%E3%81%AE%E5%BA%8F%E7%AB%A0)
 
 Slackのチャンネルをお持ちの方は、以下のドキュメントを参考にしてIncoming WebhookのURLを作成し、そこに送信するようにしてみてください。  
-Lambdaのコードも少し修正する必要があります。具体的には、送信するデータ(JSON)の内容をSlackのIncoming Webhookに合わせて修正する必要があります。
+EventBridgeで、API送信先にデータを送る際の変換形式を少し修正する必要があります。
 
 [Incoming Webhooks](https://docs.slack.dev/tools/java-slack-sdk/ja-jp/guides/incoming-webhooks/)
 
