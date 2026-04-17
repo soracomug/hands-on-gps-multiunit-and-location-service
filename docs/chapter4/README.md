@@ -1,5 +1,7 @@
 # 4: IoT Core設定～LocationService設定～動作確認
 
+![architecture](img/architecture.png)
+
 AWSのコンソールから、Amazon Location Serviceの設定を行います。
 まず、IoT CoreからLocation Serviceへのデータルーティングの設定をします。
 
@@ -45,6 +47,8 @@ ARNが追加されたら"次へ"をクリックします。
 確認ページで"作成"をクリックします
 
 ## ジオフェンスの設定をする
+
+![architecture2](img/architecture2.png)
 
 以下の手順でLocaiton Serviceのジオフェンスを準備します。
 awsのコンソールで検索窓に”location”と入力し、表示されたサービスから"Amazon Location Service”を選択します。
@@ -156,6 +160,8 @@ CloudShellを終了するには、右上の×印をクリックします。
 最終的には、CloudWatch Logs でジオフェンスのイベントが表示されるところまで確認してください。
 
 ## EventBridgeを設定する
+
+![architecture3](img/architecture3.png)
 
 現時点ではGPSマルチユニットの位置情報がジオフェンスに入ったり出たりしたイベントは、CloudWatch Logsに出力されています。  
 このイベントをDiscordにも送るように設定します。

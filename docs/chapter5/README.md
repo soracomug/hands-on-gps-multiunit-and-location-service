@@ -1,11 +1,13 @@
 # Advanced: 中・上級者向け追加コンテンツ
 
+![architecture](img/architecture.png)
+
 早めに課題が終わった方は、以下の追加コンテンツにも是非チャレンジしてみてください。  
 (それぞれのコンテンツは独立していますので、順に行わないといけないということはありません)
 
 ## 自身のDiscordやSlackに対して通知を行ってみる
 
-ご自身のDiscordのサーバなどをお持ちの場合は、以下のドキュメントを参考にしてWebhookのURLを作成し、API送信先のURLに設定してみてください。
+ご自身のDiscordのサーバをお持ちの場合は、以下のドキュメントを参考にしてWebhookのURLを作成し、API送信先のURLに設定してみてください。
 
 [Webhooksへの序章](https://support.discord.com/hc/ja/articles/228383668-%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB-Webhooks%E3%81%B8%E3%81%AE%E5%BA%8F%E7%AB%A0)
 
