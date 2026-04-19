@@ -1,5 +1,7 @@
 # 3: SORACOM Funnel設定
 
+![architecture](img/architecture.png)
+
 ## リージョンの選択
 
 [AWSユーザーコンソール](https://console.aws.amazon.com/) にログインし、リージョンで"東京"(ap-northeast-1)を選んでください。

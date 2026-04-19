@@ -2,11 +2,11 @@
 
 ガジェット設定を行い、動作確認として、GPSマルチユニットのクリックした際に SORACOM Harvest に対してデータをクリックタイプを保存する方法を解説します。
 
-(図を入れる)
+![architecture](img/architecture.png)
 
 ## ガジェット設定にて、グループを作成する。
 
-1. SORACOMユーザーコンソール(https://console.soracom.io/) の “Menu” から “ガジェット管理” の”GPSマルチユニット” をクリックします。
+1. [SORACOMユーザーコンソール](https://console.soracom.io/) の “Menu” から “ガジェット管理” の”GPSマルチユニット” をクリックします。
 
 ![Menu](img/image2.png)  
 ![ガジェット管理](img/image3.png)
