@@ -83,12 +83,16 @@ ARNが追加されたら"次へ"をクリックします。
 以下の手順でLocaiton Serviceのジオフェンスを準備します。
 awsのコンソールで検索窓に”location”と入力し、表示されたサービスから"Amazon Location Service”を選択します。
 
+![Location Serviceの選択](img/image15.png)
+
 左上の三点リーダーをクリックしてメニューを開きます。
 
-“ジオフェンスのコレクション"をクリックします。
+“ジオフェンス"をクリックします。
 
 本日の会場を表すジオフェンス(地図の区域)を作ります。
 "ジオフェンスコレクションを作成"をクリックします。
+
+![ジオフェンスコレクションの作成](img/image16.png)
 
 名前に`GPSMultiUnitHandson`と入力し、"CloudWatch をターゲットとする EventBridge ルール - オプション"は"はい、CloudWatch をターゲットとする EventBridge ルールを作成します"を選択します。
 
