@@ -18,10 +18,10 @@ EventBridgeで、API送信先にデータを送る際の変換形式を少し修
 
 ## ジオフェンスを自分で作ってみる
 
-[geojson.io](http://geojson.io/) にアクセスすると、ブラウザ上で地図をクリックしながらGEOJsonのデータを作ることができます。  
+[geojson.io](http://geojson.io/) にアクセスすると、ブラウザ上で地図をクリックしながら GeoJSON のデータを作ることができます。  
 ここで作ったデータを保存し、ジオフェンスにアップロードして使ってみましょう。
 
-テストデータは、IoT Core の時に行った動作確認で行えます。
+テストデータは、IoT Core で行った動作確認と同じ手順で送信できます。
 
 ## 可視化してみる
 
@@ -35,6 +35,6 @@ AWS公式コンテンツである[Getting Started with Amazon Location Service (
 
 GPSマルチユニットからIoT Coreに送られたデータをこのコンテンツで作成したトラッカーに送り込むことで、GPSマルチユニットの情報を可視化することができます。
 
-次: 99: [後片付け](../../chapter99/README.md)
+次: 99: [後片付け](../chapter99/README.md)
 
-前: 4: [IoT Core設定～LocationService設定～動作確認](../chapter4/README.md)
+前: 4: [IoT Core設定～Location Service設定～動作確認](../chapter4/README.md)
